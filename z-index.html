@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="content1"></div>
+    </div>
+
+    <div class="container2">
+      <div class="content2"></div>
+    </div>
+
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+      }
+
+      .container1 {
+        z-index: 99;
+      }
+
+      .container2 {
+        z-index: 100;
+      }
+
+      .content1 {
+        z-index: 100;
+        background-color: red;
+      }
+
+      .content2 {
+        z-index: 99;
+        background-color: blue;
+      }
+    </style>
+  </body>
+</html>

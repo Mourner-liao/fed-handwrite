@@ -1,0 +1,12 @@
+{
+  "name": "xiaoqw-promise",
+  "version": "1.0.0",
+  "description": "My custom Promise implementation.",
+  "main": "MyPromise.js",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  },
+  "scripts": {
+    "test": "promises-aplus-tests MyPromise"
+  }
+}
